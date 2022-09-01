@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZuoraCPQ.Plugins", "ZuoraCPQ.Plugins\ZuoraCPQ.Plugins.csproj", "{E4DFFA3B-80AF-496F-AE6E-C6B5400B88F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZuoraCPQ.Workflows", "ZuoraCPQ.Workflows\ZuoraCPQ.Workflows.csproj", "{5F6E59FE-62B3-4642-8323-9F7590007830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZuoraCPQ.Customizations", "ZuoraCPQ.Customizations\ZuoraCPQ.Customizations.csproj", "{6E78E148-7913-48FB-8EF6-EF90F3302166}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ZuoraCPQ.Commons", "ZuoraCPQ.Commons\ZuoraCPQ.Commons.shproj", "{61632801-DF46-4799-9F16-3D706699E645}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ZuoraCPQ.BusinessProcesses", "ZuoraCPQ.BusinessProcesses\ZuoraCPQ.BusinessProcesses.shproj", "{B92924D1-214C-47E3-8CB6-8553F9CF262E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTest", "PluginTest\PluginTest.csproj", "{2ACAAD27-D5E8-4A19-ADE8-2C4E315F8EF5}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ZuoraCPQ.Commons\ZuoraCPQ.Commons.projitems*{61632801-df46-4799-9f16-3d706699e645}*SharedItemsImports = 13
+		ZuoraCPQ.BusinessProcesses\ZuoraCPQ.BusinessProcesses.projitems*{b92924d1-214c-47e3-8cb6-8553f9cf262e}*SharedItemsImports = 13
+		ZuoraCPQ.BusinessProcesses\ZuoraCPQ.BusinessProcesses.projitems*{e4dffa3b-80af-496f-ae6e-c6b5400b88f4}*SharedItemsImports = 4
+		ZuoraCPQ.Commons\ZuoraCPQ.Commons.projitems*{e4dffa3b-80af-496f-ae6e-c6b5400b88f4}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4DFFA3B-80AF-496F-AE6E-C6B5400B88F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DFFA3B-80AF-496F-AE6E-C6B5400B88F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DFFA3B-80AF-496F-AE6E-C6B5400B88F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DFFA3B-80AF-496F-AE6E-C6B5400B88F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6E59FE-62B3-4642-8323-9F7590007830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6E59FE-62B3-4642-8323-9F7590007830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6E59FE-62B3-4642-8323-9F7590007830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6E59FE-62B3-4642-8323-9F7590007830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E78E148-7913-48FB-8EF6-EF90F3302166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E78E148-7913-48FB-8EF6-EF90F3302166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E78E148-7913-48FB-8EF6-EF90F3302166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E78E148-7913-48FB-8EF6-EF90F3302166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACAAD27-D5E8-4A19-ADE8-2C4E315F8EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACAAD27-D5E8-4A19-ADE8-2C4E315F8EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACAAD27-D5E8-4A19-ADE8-2C4E315F8EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACAAD27-D5E8-4A19-ADE8-2C4E315F8EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4E884ED-1CEA-4620-8724-DDDD426FE0EE}
+	EndGlobalSection
+EndGlobal
